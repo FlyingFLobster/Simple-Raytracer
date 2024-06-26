@@ -6,6 +6,6 @@
  There are a number of future features yet to be implemented, such as: Texture support, arbitrary geometry support, more sophisticated bias calculation, brightness attenuation, moveable camera.  
  ## Compilation:
  Requires C++17.  
- g++ -g raytracing_primer.cpp -o raytracer  
+ g++ raytracing_primer.cpp -o raytracer  
  ## Running:
  In its currently function state, the program is run in the command line and takes in two arguments for the size of the image (width and height as integers), and produces said image in the ppm format.  
